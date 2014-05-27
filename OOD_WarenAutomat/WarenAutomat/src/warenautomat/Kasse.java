@@ -111,7 +111,7 @@ public class Kasse {
 //				  + (i+1) + ": " + m_Muenzsaeule[i].getUeberfluessigerMuenzBestand());
 		  SystemSoftware.zeigeMuenzenInGui(inFranken(m_Muenzsaeule[i].getMuenzArt()), m_Muenzsaeule[i].getMuenzBestand());
 
-	  }
+ 	  }
 	  System.out.println("*** kasse.fuelleKasseBestaetigung(): " + inFranken(m_TotalGeldBetrag));
   }
 
